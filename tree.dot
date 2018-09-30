@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="node #0\nnew_user <= 0.5\nsamples = 316197\nvalue = [305999, 10198]\nclass = not converted", fillcolor="#e58139f7"] ;
+1 [label="node #1\ncountry <= 0.5\nsamples = 99454\nvalue = [92295, 7159]\nclass = not converted", fillcolor="#e58139eb"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="node #2\nage <= 35.5\nsamples = 23094\nvalue = [23028, 66]\nclass = not converted", fillcolor="#e58139fe"] ;
+1 -> 2 ;
+3 [label="node #3\nsamples = 16705\nvalue = [16642, 63]\nclass = not converted", fillcolor="#e58139fe"] ;
+2 -> 3 ;
+4 [label="node #4\nsamples = 6389\nvalue = [6386, 3]\nclass = not converted", fillcolor="#e58139ff"] ;
+2 -> 4 ;
+5 [label="node #5\nage <= 26.5\nsamples = 76360\nvalue = [69267, 7093]\nclass = not converted", fillcolor="#e58139e5"] ;
+1 -> 5 ;
+6 [label="node #6\nsamples = 27652\nvalue = [23674, 3978]\nclass = not converted", fillcolor="#e58139d4"] ;
+5 -> 6 ;
+7 [label="node #7\nsamples = 48708\nvalue = [45593, 3115]\nclass = not converted", fillcolor="#e58139ee"] ;
+5 -> 7 ;
+8 [label="node #8\ncountry <= 0.5\nsamples = 216743\nvalue = [213704, 3039]\nclass = not converted", fillcolor="#e58139fb"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="node #9\nage <= 29.5\nsamples = 53508\nvalue = [53472, 36]\nclass = not converted", fillcolor="#e58139ff"] ;
+8 -> 9 ;
+10 [label="node #10\nsamples = 25847\nvalue = [25817, 30]\nclass = not converted", fillcolor="#e58139ff"] ;
+9 -> 10 ;
+11 [label="node #11\nsamples = 27661\nvalue = [27655, 6]\nclass = not converted", fillcolor="#e58139ff"] ;
+9 -> 11 ;
+12 [label="node #12\nage <= 24.5\nsamples = 163235\nvalue = [160232, 3003]\nclass = not converted", fillcolor="#e58139fa"] ;
+8 -> 12 ;
+13 [label="node #13\nsamples = 42675\nvalue = [41301, 1374]\nclass = not converted", fillcolor="#e58139f7"] ;
+12 -> 13 ;
+14 [label="node #14\nsamples = 120560\nvalue = [118931, 1629]\nclass = not converted", fillcolor="#e58139fc"] ;
+12 -> 14 ;
+}
